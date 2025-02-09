@@ -14,7 +14,7 @@ Une solution web interactive permettant l'analyse et la visualisation des donné
 ## 🛠 Technologies Utilisées  
 - **Frontend** : HTML, CSS, JavaScript, **Leaflet.js**  
 - **Backend** : **Flask** (API, comptage d'entités, export GeoJSON, génération de PDF)  
-- **Base de données** : **GPKG (GeoPackage)**  
+- **données** : **GPKG (GeoPackage)**  
 - **Stockage des tuiles vectorielles** : **MapTiler**  
 - **Déploiement** : **PythonAnywhere**  
 
@@ -50,20 +50,22 @@ source venv/bin/activate  # Mac/Linux
 venv\Scripts\activate     # Windows
 pip install -r requirements.txt
 ```
-### 3️⃣ Lancer l'application Flask
+### 3️⃣ Lancer l'application Flask (Serveur Backend)
 ```bash
 python app.py
 ```
-➡️ L'application sera accessible à : http://127.0.0.1:5000/
+➡️  L'API sera accessible à : http://127.0.0.1:5000/
 
-🌐 Accès en ligne
+### 🌐 Accès en ligne (Frontend)
 
-l'application est également accessible via GitHub Pages :
+L'application web (interface utilisateur) est également accessible via GitHub Pages :
 
 🔗 👉 https://iyasrachidi1.github.io/ilyas/
 ---
-👤 Auteur
+### 👤 Auteur
 
 [**Ilyas Rachidi**](https://github.com/Iyasrachidi1)
+
 📌 **Lien du projet GitHub** : [plateforme-interactive-d-analyse-SIG](https://github.com/Iyasrachidi1/plateforme-interactive-d-analyse-SIG)  
-📌 **Lien vers la documentation** : [Rapport_SIG.pdf]([docs](https://github.com/Iyasrachidi1/plateforme-interactive-d-analyse-SIG/tree/main/docs/Rapport_SIG.pdf)
+
+📌 **Lien vers la documentation** : [Rapport.pdf](https://github.com/Iyasrachidi1/plateforme-interactive-d-analyse-SIG/tree/main/docs/Rapport.pdf)
